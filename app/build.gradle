@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.arx.sensix'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.arx.sensix"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
